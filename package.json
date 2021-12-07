@@ -48,7 +48,7 @@
     "typescript": "~4.4.4"
   },
   "engines: : {
-    "node": "",
-    "npm": ""
+    "node": "16.13.0",
+    "npm": "8.1.0"
   }
 }
