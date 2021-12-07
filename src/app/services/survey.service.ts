@@ -10,7 +10,7 @@ import {User} from "../models/user.model";
 })
 export class SurveyService {
 
-   private apiURL = "http://localhost:3000/";
+   private apiURL = "https://code-warriors-backend.herokuapp.com/";
   refresh$ = new BehaviorSubject<any>(null);
 
   survey: any[] = []
