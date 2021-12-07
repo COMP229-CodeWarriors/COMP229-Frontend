@@ -20,17 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44650c0-2495-4275-9310-ba78ebda69ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/auth/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/auth/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/auth/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/auth/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/auth/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/auth/register/register.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/auth/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/auth/register/register.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +62,7 @@
       <workItem from="1638855687178" duration="8858000" />
       <workItem from="1638874314867" duration="26000" />
       <workItem from="1638874865501" duration="1499000" />
-      <workItem from="1638891397806" duration="3135000" />
+      <workItem from="1638891397806" duration="3574000" />
     </task>
     <servers />
   </component>
