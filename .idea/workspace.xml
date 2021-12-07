@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44650c0-2495-4275-9310-ba78ebda69ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/final-team-project-survey-site/procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final-team-project-survey-site/src/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final-team-project-survey-site/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/final-team-project-survey-site/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final-team-project-survey-site/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/final-team-project-survey-site/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final-team-project-survey-site/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/final-team-project-survey-site/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final-team-project-survey-site/server/config/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/final-team-project-survey-site/server/config/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Comp229-backend" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -65,6 +59,8 @@
       <updated>1638698299516</updated>
       <workItem from="1638698300577" duration="2856000" />
       <workItem from="1638855687178" duration="8858000" />
+      <workItem from="1638874314867" duration="26000" />
+      <workItem from="1638874865501" duration="1499000" />
     </task>
     <servers />
   </component>
@@ -88,6 +84,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="532" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1638858403343" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1638878759672">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1638878759672" />
     <state width="1515" height="203" key="GridCell.Tab.0.bottom" timestamp="1638869856323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
