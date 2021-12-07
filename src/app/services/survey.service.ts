@@ -65,13 +65,13 @@ export class SurveyService {
   }
 
   register(user: User){
-    const url = this.apiURL + 'register'
+    const url = this.apiURL + 'auth/register'
     const register = this.httpClient.post<any>(url, user);
     return register
   }
 
   login(username:any, password:any) {
-    const url = this.apiURL + 'login'
+    const url = this.apiURL + 'auth/login'
     return this.httpClient.post<User>(url, { username, password })
       .pipe(map(user => {
         // store user details and jwt token in local storage to keep user logged in between page refreshes
