@@ -23,13 +23,14 @@ export class RegisterComponent implements OnInit {
       name: ['', Validators.required],
       username: ['', [Validators.required]],
       email: ['', [Validators.required, Validators.email]],
-      password: ['', [Validators.required, Validators.minLength(6)]]
+      password: ['', [Validators.required]]
 
     });
   }
 
   onSubmit() {
 
+    console.log(this.registerForm)
     this.submitted = true;
 
     // stop here if form is invalid
@@ -42,10 +43,10 @@ export class RegisterComponent implements OnInit {
 
       this.surveyService.register(this.registerForm.value).subscribe( resp => {
         if(resp){
-          if(!resp.success){
+          if(!resp){
           }
           else{
-            this.router.navigate(['/login']);
+            this.router.navigate(['/login'])
           }
         }
 

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, NgForm, Validators} from '@angular/forms';
 import { Router } from '@angular/router';
 import {SurveyService} from "../../../services/survey.service";
+// import { NgxSpinnerService } from "ngx-spinner";
 
 @Component({
   selector: 'app-login',
@@ -19,7 +20,8 @@ export class LoginComponent implements OnInit {
 
 
   constructor(private router: Router, public surveyService: SurveyService,
-              private formBuilder: FormBuilder) { }
+              private formBuilder: FormBuilder
+              ) { }
 
   get f() { return this.loginForm.controls; }
 
@@ -39,6 +41,7 @@ export class LoginComponent implements OnInit {
         .subscribe((resp: any)=> {
           if(resp){
             if(localStorage.getItem('user')) {
+              // this.toastr.success('Successfully Login', 'Success!');
               this.router.navigate(['/survey/list-survey']);
             }
           }

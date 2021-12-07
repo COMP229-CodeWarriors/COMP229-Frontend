@@ -60,12 +60,12 @@
   <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="row g-3">
     <div class="form-group">
       <div class="col-md-8">
-        <label for="username" class="form-label">User name</label>
+        <label for="username" class="form-label">Username</label>
         <input type="text" class="form-control" formControlName="username" id="username">
       </div>
       <div class="col-8">
         <label for="password" class="form-label">Password</label>
-        <input type="text" class="form-control" formControlName="password" id="password">
+        <input type="password" class="form-control" formControlName="password" id="password">
       </div>
 
     </div>
@@ -78,3 +78,5 @@
         </form>
 
       </div>
+
+<mat-progress-spinner [mode]="'indeterminate'"></mat-progress-spinner>
